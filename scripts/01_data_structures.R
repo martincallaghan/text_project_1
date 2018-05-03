@@ -5,6 +5,7 @@
 #Read the data file from disk
 cats <- read.csv(file="data/feline-data.csv")
 
+# Enter the name of the data file so we can view it
 cats
 
 #Address a particular column with $
@@ -18,6 +19,7 @@ cats$weight + 2
 typeof (cats$weight)
 typeof (cats$coat)
 
+# Find out what kind of data file it is
 class(cats)
 
 # Vectors
