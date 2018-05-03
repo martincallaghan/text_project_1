@@ -161,7 +161,7 @@ surveys_sml <- select(filter(surveys, weight < 5), species_id, sex, weight)
 This is handy, but can be difficult to read if too many functions are nested, as
 R evaluates the expression from the inside out (in this case, filtering, then selecting).
 
-The last option, *pipes*, are a recent addition to R. Pipes let you take
+The last option, *pipes*, are a recent addition to R (but something you should be used to if you've worked in the Unix shell). Pipes let you take
 the output of one function and send it directly to the next, which is useful
 when you need to do many things to the same dataset.  Pipes in R look like
 `%>%` and are made available via the **`magrittr`** package, installed automatically
