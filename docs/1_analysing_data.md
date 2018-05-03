@@ -21,6 +21,11 @@ source("setup.R")
 > * Change how character strings are handled in a data frame.
 > * Format dates.
 
+
+> ### Ammendement done by Rodrigo Solis
+>
+> * This is a new bullet point
+
 ------------
 
 ## Presentation of the Survey Data
