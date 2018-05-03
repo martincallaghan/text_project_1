@@ -20,7 +20,7 @@ source("setup.R")
 > * Reorder and rename factors.
 > * Change how character strings are handled in a data frame.
 > * Format dates.
-
+> * Add more objectives.
 ------------
 
 ## Presentation of the Survey Data
@@ -77,7 +77,7 @@ head(surveys)
 ## Try also
 ## View(surveys)
 ```
-
+## Be more descriptive
 > ### Note
 >
 > `read.csv` assumes that fields are delineated by commas, however, in several
