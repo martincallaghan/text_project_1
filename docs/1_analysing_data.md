@@ -12,7 +12,7 @@ source("setup.R")
 
 > ### Learning Objectives
 >
-> * Describe what a data frame is.
+> * Explain why data frames are important.
 > * Load external data from a .csv file into a data frame.
 > * Summarize the contents of a data frame.
 > * Describe what a factor is.
@@ -20,6 +20,8 @@ source("setup.R")
 > * Reorder and rename factors.
 > * Change how character strings are handled in a data frame.
 > * Format dates.
+
+
 
 ------------
 
